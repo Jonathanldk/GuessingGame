@@ -30,7 +30,7 @@ namespace GuesserGame
                 switch (input)
                 {
                     case "Sir Arthur":
-                        Console.WriteLine("Congratulation you may cross the brigde");
+                        Console.WriteLine("Right. Off you go.");
                         Environment.Exit(0);
                         break;
 
@@ -43,7 +43,7 @@ namespace GuesserGame
                 }
                 if (currentTrials == -1)
                 {
-                    Console.WriteLine("You are not worthy enough to cross the brigde");
+                    Console.WriteLine("You are not worthy enough to cross the bridge");
                     Environment.Exit(0);
 
                 }
